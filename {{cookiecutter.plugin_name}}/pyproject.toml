@@ -6,6 +6,7 @@ authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 
 [tool.poetry.dependencies]
 python = "^3.7.3"
+aprsd = "^2.5.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
