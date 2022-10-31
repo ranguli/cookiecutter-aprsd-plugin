@@ -1,0 +1,23 @@
+[tool.poetry]
+name = {{cookiecutter.plugin_name}}
+version = {{cookiecutter.version}}
+description = {{cookiecutter.short_description}}
+authors = [{{cookiecutter.full_name}} <{{cookiecutter.email}}>]
+
+[tool.poetry.dependencies]
+python = "^3.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.9b0"
+flake8 = "^3.9.2"
+bandit = "^1.7.0"
+nox = "^2021.6.12"
+isort = "^5.9.3"
+mypy = "^0.910"
+nox-poetry = "^0.8.4"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
